@@ -9,10 +9,10 @@ An end-to-end Computer Vision and Deep Learning pipeline that utilizes an unsupe
 * **Edge-Ready AI Optimization:** Quantized deployment graph (`.tflite` FP16) compressing the model architecture for resource-constrained hardware.
 
 ## 📊 Performance & Clinical Metrics
-* **Discrimination Capacity (AUC):** 0.7664
-* **Optimal Diagnostic Threshold:** 0.002863
-* **Clinical Sensitivity (TPR):** 84.86%
-* **False Positive Rate (FPR):** 38.07%
+* **Discrimination Capacity (AUC):** 0.7604
+* **Optimal Diagnostic Threshold:** 0.003128
+* **Clinical Sensitivity (TPR):** 81.98%
+* **False Positive Rate (FPR):** 36.31%
 
 ## 🛠️ Tech Stack
 * **Deep Learning:** TensorFlow 2.21, Keras

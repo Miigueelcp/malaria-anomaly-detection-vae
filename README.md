@@ -29,11 +29,10 @@ An end-to-end Computer Vision and Deep Learning pipeline that utilizes an unsupe
   * `02_clinical_evaluation/`: Receiver Operating Characteristic (ROC) analysis, Youden's J-Index optimization, and population density histograms.
   * `03_inference_results/`: Production inference reports, absolute diagnostic heatmaps, and localized anomaly bounding boxes.
 - `requirements.txt`: Environment dependencies and core framework versions for absolute reproducibility.
-- `.gitignore`: Configuration file specifying untracked Python and temporary Jupyter files to keep the workspace clean.
 - `LICENSE`: MIT Open-Source License terms and permissions.
 - `README.md`: Core project documentation, architectural blueprint, and the complete clinical analysis report.
 
-- 
+  
 
 ## 🧬 Data Source & Clinical Citation
 

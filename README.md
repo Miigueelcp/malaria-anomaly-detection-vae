@@ -23,7 +23,7 @@ An end-to-end Computer Vision and Deep Learning pipeline that utilizes an unsupe
 ## 📂 Project Structure
 - `malaria_vae_detector.ipynb`: The main notebook containing the full 8-part modular unsupervised deep learning and computer vision pipeline.
 - **`models/`**: Serialized model distributions and production outputs:
-  * `malaria_anomaly_vae_quantized.tflite`: Edge-AI Float16 optimized deployment graph compiled for resource-constrained hardware.
+  * [malaria_anomaly_vae_quantized.tflite](https://github.com/TU_USUARIO/TU_REPOSITORIO/releases/download/v1.0.0/malaria_anomaly_vae_quantized.tflite): **[📦 Click to Download Model Weights]** Edge-AI Float16 optimized deployment graph compiled for resource-constrained hardware. *(Hosted externally under GitHub Releases due to file size constraints)*.
 - **`images/`**: Resulting visual and clinical assets organized by validation phase:
   * `01_convergence/`: Loss visualization charts displaying Reconstruction Loss (MSE) and Kullback-Leibler (KL) Divergence trends.
   * `02_clinical_evaluation/`: Receiver Operating Characteristic (ROC) analysis and population density histograms.

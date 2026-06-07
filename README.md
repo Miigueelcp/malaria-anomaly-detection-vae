@@ -25,9 +25,9 @@ An end-to-end Computer Vision and Deep Learning pipeline that utilizes an unsupe
 - **`models/`**: Serialized model distributions and production outputs:
   * `malaria_anomaly_vae_quantized.tflite`: Edge-AI Float16 optimized deployment graph compiled for resource-constrained hardware.
 - **`images/`**: Resulting visual and clinical assets organized by validation phase:
-  * `01_convergence`: Loss visualization charts displaying Reconstruction Loss (MSE) and Kullback-Leibler (KL) Divergence trends.
-  * `02_clinical_evaluation`: Receiver Operating Characteristic (ROC) analysis, Youden's J-Index optimization, and population density histograms.
-  * `03_inference_results`: Production inference reports, absolute diagnostic heatmaps, and localized anomaly bounding boxes.
+  * `01_convergence/`: Loss visualization charts displaying Reconstruction Loss (MSE) and Kullback-Leibler (KL) Divergence trends.
+  * `02_clinical_evaluation/`: Receiver Operating Characteristic (ROC) analysis, Youden's J-Index optimization, and population density histograms.
+  * `03_inference_results/`: Production inference reports, absolute diagnostic heatmaps, and localized anomaly bounding boxes.
 - `requirements.txt`: Environment dependencies and core framework versions for absolute reproducibility.
 - `LICENSE`: MIT Open-Source License terms and permissions.
 - `README.md`: Core project documentation, architectural blueprint, and the complete clinical analysis report.
